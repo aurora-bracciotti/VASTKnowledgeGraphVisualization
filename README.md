@@ -94,7 +94,7 @@ The workflow is:
 
 ## Team
 
-This project is developed collaboratively by Aurora Bracciotti.
+This project is developed for **the Course on Visual Analytics** by Aurora Bracciotti.
 
 ## References
 
