@@ -6,7 +6,7 @@ Collaborative project developed by students of the **Course on Visual Analytics*
 
 ## Overview
 
-This repository is intended to host the research, design material, prototypes, and documentation produced for the 2025 VAST Design Challenge using dataset from Mini-Challange 1. The challenge asks participants to conceive a **visual analytics design for knowledge graphs** that helps non-expert users and expert to discover new information or relationships,
+This repository is intended to host the research, design material, prototypes, and documentation produced for the 2025 VAST Design Challenge using dataset from Mini-Challange 1. The challenge asks participants to conceive a **visual analytics design for knowledge graphs** that helps non-expert users and expert to discover new information or relationships.
 
 Knowledge graphs combine graph structure with rich, heterogeneous node and edge attributes. This creates important visualization challenges related to scale, uncertainty, incomplete information, and interpretability. Our project explores how visual analytics can support these tasks through an accessible and well-justified design.
 
