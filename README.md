@@ -30,39 +30,45 @@ According to the challenge brief, the final submission should focus on a **desig
 The repository now contains a working Vue/D3 prototype, project documentation, and design rationale. The implemented dashboard uses the official VAST 2025 MC1 knowledge graph as the concrete case study for the Design Challenge.
 
 ## Project structure
-,,,
-frontend/src
-  components
-     overview
-        ConnectedComponentChart.vue
-        DegreeDistributionChart.vue
-        EntityCompositionChart.vue
-        GenreCompositionChart.vue
-        NodeLinkDiagram.vue
-        RelationshipFlowChart.vue
-        RelationshipTypesChart.vue
-    Dashboard.vue
-    DashboardCard.vue
-    FilterPanel.vue
-    OverviewPanel.vue
-    EgoNetworkPanel.vue
-    TimelinePanel.vue
-  data
-    graphLoader.js
-    graphTransforms.js
-    metrics.js
-    scoring.js
-,,,
+
+```text
+frontend/
+└── src/
+    ├── components/
+    │   ├── overview/
+    │   │   ├── ConnectedComponentChart.vue
+    │   │   ├── DegreeDistributionChart.vue
+    │   │   ├── EntityCompositionChart.vue
+    │   │   ├── GenreCompositionChart.vue
+    │   │   ├── NodeLinkDiagram.vue
+    │   │   ├── RelationshipFlowChart.vue
+    │   │   └── RelationshipTypesChart.vue
+    │   │
+    │   ├── Dashboard.vue
+    │   ├── DashboardCard.vue
+    │   ├── FilterPanel.vue
+    │   ├── OverviewPanel.vue
+    │   ├── EgoNetworkPanel.vue
+    │   └── TimelinePanel.vue
+    │
+    └── data/
+        ├── graphLoader.js
+        ├── graphTransforms.js
+        ├── metrics.js
+        └── relationship.js
+```
+
 ## How to Run
 From the frontend folder:
-
+```
 cd frontend
 npm install
 npm run dev
-
+```
 Open:
+```
 http://127.0.0.1:5173/
-
+```
 ## Working Approach
 
 The workflow is:
