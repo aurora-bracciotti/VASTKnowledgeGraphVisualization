@@ -31,7 +31,7 @@ The repository now contains a working Vue/D3 prototype, project documentation, a
 
 ## Implemetation Status
 Key frontend folders:
-
+'''
 frontend/src
   components
      overview
@@ -53,7 +53,7 @@ frontend/src
     graphTransforms.js
     metrics.js
     scoring.js
-
+'''
 ## How to Run
 From the frontend folder:
 
