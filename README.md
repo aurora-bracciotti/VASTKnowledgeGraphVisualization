@@ -29,9 +29,8 @@ According to the challenge brief, the final submission should focus on a **desig
 
 The repository now contains a working Vue/D3 prototype, project documentation, and design rationale. The implemented dashboard uses the official VAST 2025 MC1 knowledge graph as the concrete case study for the Design Challenge.
 
-## Implemetation Status
-Key frontend folders:
-'''
+## Project structure
+,,,
 frontend/src
   components
      overview
@@ -53,7 +52,7 @@ frontend/src
     graphTransforms.js
     metrics.js
     scoring.js
-'''
+,,,
 ## How to Run
 From the frontend folder:
 
