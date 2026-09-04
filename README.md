@@ -31,6 +31,8 @@ The repository now contains a working Vue/D3 prototype, project documentation, a
 
 ## Project structure
 
+The frontend is organized into reusable Vue components and dedicated data-processing modules:
+
 ```text
 frontend/
 └── src/
