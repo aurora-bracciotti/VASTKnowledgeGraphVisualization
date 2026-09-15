@@ -17,8 +17,8 @@
     "vue-router": "^5.0.4"
   },
   "devDependencies": {
-    "@tailwindcss/vite": "^4.1.4",
     "@eslint/js": "^10.0.1",
+    "@tailwindcss/vite": "^4.1.4",
     "@vitejs/plugin-vue": "^6.0.5",
     "eslint": "^10.1.0",
     "eslint-plugin-oxlint": "~1.57.0",
@@ -28,7 +28,7 @@
     "oxlint": "~1.57.0",
     "tailwindcss": "^4.1.4",
     "vite": "^8.0.3",
-    "vite-plugin-vue-devtools": "^8.1.1"
+    "vite-plugin-vue-devtools": "^8.2.1"
   },
   "engines": {
     "node": "^20.19.0 || >=22.12.0"
